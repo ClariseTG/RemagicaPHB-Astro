@@ -1,0 +1,13 @@
+# Conditions
+## Blinded
+## Bleeding
+## Charmed
+## Dizzy
+## Floating
+## Frightened
+## Pained
+## Paralyzed
+## Plagued
+## Regenerating
+## Stunned
+## Suffocating
