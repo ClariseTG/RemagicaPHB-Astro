@@ -35,17 +35,28 @@ const pageTitle = "Remagica 4.6 Rules"
         padding-right: 1.5em;
         padding-left: 1.5em;
         font-family: var(--font-atkinson);
+        font-size: 1.1em;
 	}
 
-
-    h2 {
+    h1,
+    h2,
+    h3 {
         font-family: var(--font-lexend);
+    }
+
+    a {
+        color: #630aab;
+    }
+
+    a:hover,
+    a:focus {
+        color: #c602e8;
     }
 
     .imgbox {
         display: flex;
         width: 100%;
-        max-width:28em;
+        max-width:40em;
         align-items: center;
     }
 
@@ -62,13 +73,14 @@ const pageTitle = "Remagica 4.6 Rules"
     display: block;
     position: static;
     width: auto;
-    background: none;
+    background: #f2f2f2;
+    border-radius: .8em;
 }
 
 .nav-links-top a {
     text-decoration: none;
     display: inline-block;
-    padding: 1em 1em;
+    padding: .5em .5em;
 }
 
 .nav-links {
@@ -79,12 +91,14 @@ const pageTitle = "Remagica 4.6 Rules"
 .nav-links-top a:focus,
 .nav-links a:hover,
 .nav-links a:focus {
-  background-color: #e6abff;
+    background-color: #eed4ff;
+    border-radius: .8em;
 }
 
 @media screen and (min-width: 636px) {
     body {
-        margin-left: 25%;
+        margin-left: 8.5em;
+        width: 75%;
     }
     
     .nav-links-top {
@@ -92,18 +106,20 @@ const pageTitle = "Remagica 4.6 Rules"
     }
     
     .nav-links {
-        margin-left: -20%;
+        margin-left: -8.5em;
         display: block;
         position: fixed;
-        width: 20%;
-        background: none;
+        width: 8em;
+        background: #f2f2f2;
+        border-radius: .8em;
     }
 
     .nav-links a {
         display: block;
         text-decoration: none;
-        padding: .8em 1em;
+        padding: .8em .5em;
         width: 100%;
+        border-radius: .8em;
     }
 }
 
