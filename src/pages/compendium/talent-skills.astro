@@ -1,0 +1,25 @@
+---
+// src: https://docs.astro.build/en/guides/content-collections/
+import {getCollection, getEntry, render} from 'astro:content';
+
+import Layout from '../layouts/Layout.astro';
+import Navigation from '../components/Navigation.astro';
+
+const pageTitle="Talent Skills";
+const skillsMaster = await getCollection('talent_skills');
+const parry = await getEntry('talent_skills', '1');
+
+const { Content } = await render(skillsMaster);
+
+---
+
+<h1>Talent Skills</h1>
+
+<Content />
+<ul>
+    {skillsMaster.map(
+        skill => (
+            <li>{skill.name}: {skill.desc}</li>
+        )
+    )}
+</ul>
