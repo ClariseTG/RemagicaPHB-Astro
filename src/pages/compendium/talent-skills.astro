@@ -1,25 +1,31 @@
 ---
 // src: https://docs.astro.build/en/guides/content-collections/
-import {getCollection, getEntry, render} from 'astro:content';
+//import {getCollection, getEntry, render} from 'astro:content';
 
-import Layout from '../layouts/Layout.astro';
-import Navigation from '../components/Navigation.astro';
+import Layout from '../../layouts/Layout.astro';
+import Navigation from '../../components/Navigation.astro';
+
+import skillsMaster from "../../data/talent-skills.json"
 
 const pageTitle="Talent Skills";
-const skillsMaster = await getCollection('talent_skills');
-const parry = await getEntry('talent_skills', '1');
+//const skillsMaster = await getCollection('talent_skills');
+//const parry = await getEntry('talent_skills', '1');
 
-const { Content } = await render(skillsMaster);
+//const { cont } = await render(skillsMaster);
 
 ---
-
-<h1>Talent Skills</h1>
-
-<Content />
-<ul>
-    {skillsMaster.map(
-        skill => (
-            <li>{skill.name}: {skill.desc}</li>
-        )
-    )}
-</ul>
+<Layout>
+    <h1>Talent Skills</h1>
+    
+    <cont>
+    <ul>
+        {skillsMaster.filter(
+            skill => skill.display
+        ).map(
+            skill => (
+                <li>{skill.name} ({skill.id}): <div set:html={skill.desc}></li>
+            )
+        )}
+    </ul>
+    </cont>
+</Layout>
