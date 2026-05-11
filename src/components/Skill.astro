@@ -1,0 +1,22 @@
+---
+const {name, desc, talent} = Astro.props;
+
+var borderColor = "";
+if (talent === "Agile"){
+    borderColor = "red";
+} else {
+    borderColor = "black";
+}
+---
+
+<div class="skillbox">{name}: {borderColor} {desc}</div>
+
+<style define:vars={{borderColor}}>
+    .skillbox {
+        border: solid; 
+        border-color: var(--borderColor);
+        border-radius: .8em;
+        padding: .5em .5em;
+        margin: .5em .5em;
+    }
+</style>

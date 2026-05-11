@@ -6,7 +6,7 @@ import Layout from '../../layouts/Layout.astro';
 import Navigation from '../../components/Navigation.astro';
 import Skill from '../../components/Skill.astro';
 
-import skillsMaster from "../../data/talent-skills.json"
+import skillsMaster from "../../data/magic-skills.json"
 
 const pageTitle="Talent Skills";
 
@@ -16,7 +16,7 @@ const agileColor = "#e63119";
 
 ---
 <Layout>
-    <h1>Talent Skills</h1>
+    <h1>Magic Skills</h1>
     
         {skillsMaster.filter(
             skill => skill.display

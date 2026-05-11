@@ -2,16 +2,28 @@
 import Layout from '../layouts/Layout.astro';
 import Navigation from '../components/Navigation.astro';
 
+import Logo from '/src/assets/logo_dark.svg';
+
 const pageTitle="Remagica 4.6";
 
 ---
 
 <Layout>
-    <img class="imgbox" src="src/assets/logo_dark.svg" width="100%" alt="✨Remagica Player's Handbook✨"></img>
-
+    <Logo class="imgbox" height="16em"/>
     <h2>Gameplay</h2>
-    <a href="/gameplay/overall-gameplay">Overall Gameplay</a>
+    <ul>
+    <li><a href="/gameplay/overall-gameplay">Overall Gameplay</a></li>
+    <li><a href="/gameplay/damage">Damage</a></li>
+    <li><a href="/gameplay/adrenaline">Adrenaline</a></li>
+    <li><a href="/gameplay/advancement-and-improvements">Advancement</a></li>
+    <li><a href="/gameplay/downtime">Downtime</a></li>
+    <li><a href="/gameplay/movement-and-range">Movement and Range</a></li>
+    </ul>
     <h2>Character Creation</h2>
     <h2>Compendium</h2>
+    <ul>
+    <li><a href="/compendium/talent-skills">Talent Skills List</a></li>
+    <li><a href="/compendium/magic-skills">Magic Skills List</a></li>
+    </ul>
 </Layout>
 

@@ -1,3 +1,6 @@
+---
+layout: ../../layouts/Layout.astro
+---
 # Overall Gameplay
 
 Remagica is a game played by voice or text-- words-- where players apart from the DM can interact with the world, and the DM provides information on how the world reacts. The players are limited to a single character as their main link to the world, and the GM has a wider scope to give players more options.
