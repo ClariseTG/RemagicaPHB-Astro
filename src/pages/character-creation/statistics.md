@@ -9,14 +9,21 @@ A Proficiency is a number value representing a character's skill in something mo
 
 ## Rolling Checks
 
-When a character attempts to do something, and the outcome is uncertain, they make a [Check]().
+When a character attempts to do something, and the outcome is uncertain, they make a [Check](/gameplay/checks).
 
 ## Statistics
 
+- **Body**:
+- **Will**:
+- **Senses**:
+- **Presence**:
+
 ## Proficiencies
+
+[[3 kinds of proficiencies: skill prof, tool prof, lore prof, can divvy up points however but at character creation theres minimums for each]]
 
 ## Allotting Stats and Proficiencies at Character Creation
 
 [[point buy]]
 
-
+[[7 proficiency points?]]

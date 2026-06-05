@@ -16,7 +16,7 @@ Additionally, the Ranks *themselves* are customizable by the DM, allowing for an
 ## Components of a Rank
 
 ### Skills
-A character's most interesting abilities are often defined by their Skills. Refer to the [[list of skills->Skills List]] to see what they are; the system is meant for each skill to represent a step from the bottom of the tree (their talent) towards the top (the skills that represent archetypes.)
+A character's most interesting abilities are often defined by their Skills. Refer to the [list of skills](/compendium/talent-skills) to see what they are; the system is meant for each skill to represent a step from the bottom of the tree (their talent) towards the top (the skills that represent archetypes.)
 
 Skills include both Talent Skills and Magic Skills.
 
