@@ -1,4 +1,4 @@
-![Remagica 4e](public/assets/logo_dark.svg#gh-light-mode-only)![Remagica 4e](public/assets/logo_light.svg#gh-dark-mode-only)  
+![Remagica 4e](src/assets/logo_dark.svg#gh-light-mode-only)![Remagica 4e](src/assets/logo_light.svg#gh-dark-mode-only)  
 
 # Astro PHB
 A website written using astro.build for the Remagica 4e tabletop RPG system. This website is the sole official source of information on the TTRPG.
