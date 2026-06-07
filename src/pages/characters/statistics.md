@@ -13,10 +13,10 @@ When a character attempts to do something, and the outcome is uncertain, they ma
 
 ## Statistics
 
-- **Body**:
-- **Will**:
-- **Senses**:
-- **Presence**:
+- **Body**: The character's physicality. A character that can tough out poisons, lift large weights, and endure through hard labor would have a high Body stat. Characters with low Body might have weak immune systems or have difficulty with some strength-related tasks.
+- **Will**: The character's strength of mind. A character with high Will can endure pain, keep magic under control, and stand strong in the face of terror. A character without Will may be quick to snap under pressure or lose themselves to the torrent of the unknown.
+- **Senses**: Not only the character's literal senses, but also the character's ability to make connections and notice details. A character that notices details, detects untruths, and infers things about others has strong Senses. A character with poor Senses could be someone who struggles to pick out things in their environment or someone who is dense.
+- **Charisma**: The character's weight in the minds of others. A character with a lot of Charisma is not necessarily good-looking, but quickly gains and retains the respect or adoration of others. Their words carry sway. Characters without Charisma may be spoken over and overlooked for their talents. 
 
 ## Proficiencies
 
