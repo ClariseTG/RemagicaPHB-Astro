@@ -11,7 +11,7 @@ Mainly, all parties will be role-playing, but the GM will have other focuses as 
 
 ## Getting Started: Players
 
-If you're a player, you should start by <a href="/gameplay/checks">reading the rules on checks</a> and <a href="/character-creation/tutorial">making a character</a>!
+If you're a player, you should start by <a href="/gameplay/checks">reading the rules on checks</a> and <a href="/characters/tutorial">making a character</a>!
 
 ## Getting Started: GM
 

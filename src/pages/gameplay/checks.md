@@ -25,9 +25,9 @@ For example, a Check that has gotten 3 Advantages and 2 Disadvantages would have
 
 When a character makes a Check, they roll 1d20 and add Modifiers. These modifiers are as follows:
 
-- The relevant [Statistic](/character-creation/statistics.md) is added directly to the roll.
+- The relevant [Statistic](/characters/statistics.md) is added directly to the roll.
 
-- The relevant [Proficiency](/character-creation/statistics.md) is also added directly to the roll.
+- The relevant [Proficiency](/characters/statistics.md) is also added directly to the roll.
 
 - If the Check has Advantages or Disadvantages, roll Nd6, where N is the number of Advantages or Disadvantages the Check has. If they are Advantages, add this number to the original roll. If they are Disadvantages, subtract this number from the original roll.
 
