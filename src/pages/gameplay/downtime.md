@@ -16,7 +16,7 @@ A Rest will also allow creatures to recover MP equivalent to twice their Mag bon
 
 ## Respite
 A Respite requires a full week. In that time, all creatures will heal all of their Physical and Magical Health. If the campaign is using the Alt Ruleset of Sanity, a Respite will restore 1 Sanity.
-Over the course of a Respite, the DM can allow players to train, gaining one attribute proficiency point.
+Over the course of a Respite, the DM can allow players to train or study, gaining one Proficiency point.
 
 ## Alt Ruleset: Fast Downtime
 For a more accelerated campaign, these three kinds of downtime can be condensed into two:

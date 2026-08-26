@@ -4,6 +4,8 @@ const {name, desc, talent} = Astro.props;
 var borderColor = "";
 if (talent === "Agile"){
     borderColor = "red";
+} else if (talent === "Keen"){
+    borderColor = "green";
 } else {
     borderColor = "black";
 }

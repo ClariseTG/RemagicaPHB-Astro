@@ -1,8 +1,12 @@
 ---
-const {list, skillId} = Astro.props;
+const {list, id} = Astro.props;
 
 import skillsMaster from "../../data/talent-skills.json"
 
 ---
 
-<>
+<!--retrieves skill from appropriate list-->
+
+structure:
+
+<a href="/compendium/talent-skills">skillsMaster {id} from {list}</a>
