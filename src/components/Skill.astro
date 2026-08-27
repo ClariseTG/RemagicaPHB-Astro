@@ -1,17 +1,22 @@
 ---
-const {name, desc, talent} = Astro.props;
+const {id, name, desc, talent, prereqs, unlocks} = Astro.props;
 
 var borderColor = "";
 if (talent === "Agile"){
-    borderColor = "red";
+    borderColor = "#ff0000";
 } else if (talent === "Keen"){
-    borderColor = "green";
+    borderColor = "#00ff00";
 } else {
     borderColor = "black";
 }
 ---
 
-<div class="skillbox">{name}: {borderColor} {desc}</div>
+<div class="skillbox" id={name}>
+    ({id}) {name}:
+    <div set:html={desc}></div>
+    Prerequisites: {prereqs}
+    <br>Unlocks: {unlocks}
+</div>
 
 <style define:vars={{borderColor}}>
     .skillbox {

@@ -1,8 +1,9 @@
 ---
 layout: ../../layouts/Layout.astro
-todo
 ---
 # Magic Archetype
+
+todo
 
 Archetypes:
 ## Smith / Striker?

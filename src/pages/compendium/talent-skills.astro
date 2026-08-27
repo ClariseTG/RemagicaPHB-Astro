@@ -17,7 +17,7 @@ const agileColor = "#e63119";
 ---
 <Layout>
     <h1>Talent Skills</h1>
-    
+
         {skillsMaster.filter(
             skill => skill.display
         ).sort(
@@ -43,11 +43,8 @@ const agileColor = "#e63119";
             }
         ).map(
             skill => (
-                <div class="skillbox" style="border-color: red;">({skill.id}) {skill.name}:
-                <div set:html={skill.desc}></div>
-                Prerequisites: {skill.prereqs}
-                <br>Unlocks: {skill.unlocks}
-                </div>
+                <Skill id={skill.id} name={skill.name} desc={skill.desc} talent={skill.talent} prereqs={skill.prereqs} unlocks={skill.unlocks}/>
+                
             )
         )}
 </Layout>
