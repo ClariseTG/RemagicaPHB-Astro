@@ -2,7 +2,7 @@
 import Layout from '../layouts/Layout.astro';
 import Navigation from '../components/Navigation.astro';
 
-import Logo from '/src/assets/logo_dark.svg';
+import Logo from '../components/Logo.astro';
 
 const pageTitle="Remagica 5.0";
 
@@ -11,7 +11,8 @@ const pageTitle="Remagica 5.0";
 <Layout>
     <Skill-Brief id="1" />
 
-    <Logo class="imgbox" height="16em"/>
+    <Logo height="16em" star="#8c66ae" text="#34186a" />
+
     <h2>Gameplay</h2>
     <ul>
     <li><a href="/gameplay/overall-gameplay">Overall Gameplay</a></li>
