@@ -5,6 +5,7 @@
 import Layout from '../../layouts/Layout.astro';
 import Navigation from '../../components/Navigation.astro';
 import Skill from '../../components/Skill.astro';
+import SkillBrief from '../../components/Skill-Brief.astro';
 
 import skillsMaster from "../../data/talent-skills.json"
 
@@ -17,6 +18,8 @@ const agileColor = "#e63119";
 ---
 <Layout>
     <h1>Talent Skills</h1>
+    
+    <SkillBrief id="001" />
 
         {skillsMaster.filter(
             skill => skill.display
@@ -44,7 +47,6 @@ const agileColor = "#e63119";
         ).map(
             skill => (
                 <Skill id={skill.id} name={skill.name} desc={skill.desc} talent={skill.talent} prereqs={skill.prereqs} unlocks={skill.unlocks}/>
-                
             )
         )}
 </Layout>

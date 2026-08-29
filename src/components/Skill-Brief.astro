@@ -1,12 +1,28 @@
 ---
-const {list, id} = Astro.props;
+const {id, name} = Astro.props;
 
-import skillsMaster from "../../data/talent-skills.json"
+import skillsMaster from "../data/talent-skills.json";
 
+const idNum = Number(id);
+
+    const selected = skillsMaster.filter(
+        skill => Number(skill.id) == idNum
+    )[0]
+
+var borderColor = "";
+if (selected.talent === "Agile"){
+    borderColor = "#ff0000";
+} else if (selected.talent === "Keen"){
+    borderColor = "#00ff00";
+} else {
+    borderColor = "black";
+}
 ---
 
-<!--retrieves skill from appropriate list-->
+<a href={`/compendium/talent-skills#${selected.name}`}>{selected.name}</a>
 
-structure:
-
-<a href="/compendium/talent-skills">skillsMaster {id} from {list}</a>
+<style define:vars={{borderColor}}>
+    a {
+        color: var(--borderColor);
+    }
+</style>
