@@ -3,7 +3,7 @@ layout: ../../layouts/Layout.astro
 ---
 # Talents
 
-A character's Talent is the parts of themself they rely on. These are the skills they brought with them from their life before adventuring; they will have a profound effect on the Skills they will learn as they develop.
+A character's Talent is the part of themself they rely on the most. These are the skills they brought with them from their life before adventuring; they will have a profound effect on the Skills they will learn as they develop.
 
 A Talent gives a character one Talent Skill (often abbreviated to "Skill"). Skills give characters new options or make them better at things they can already do. They also unlock other Skills that the character can take later on, as seen in the [Skills List](/compendium/talent-skills).
 
