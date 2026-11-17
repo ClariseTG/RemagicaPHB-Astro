@@ -7,6 +7,8 @@ This is a port of [the 4e PHB written in Twine](https://github.com/ClariseTG/Rem
 
 One of my major goals with this version of the site is to leverage its web-app-ness for interesting ways of presenting the TTRPG's information. We'll see how that goes; this is a hobby project.
 
+This branch uses [sweet.js](https://www.sweetjs.org/) for some custom syntax-- we'll see how it goes!
+
 # Remagica 5e
 Remagica 5e is a TTRPG by ClariseTG (me.) It is a fantasy TTRPG tailored to my worldbuilding project by the same name, with a magic system hard enough that it's practically Sci-Fi. It is my fifth major attempt at codifying the rules of Remagica's world as TTRPG mechanics (hence 5e.)
 
